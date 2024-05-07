@@ -1,0 +1,138 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 50px;
+
+}
+
+#formBox {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 650px;
+  margin: 0 auto;
+}
+
+#formBox label{
+  margin-bottom: 10px;
+}
+
+#formBox input{
+  margin-bottom: 20px;
+  border: 2px solid rgb(151, 151, 151);
+  border-radius: 10px;
+  height: 35px;
+}
+
+#formBox input:hover{
+  border: 2px solid rgb(94, 94, 245);
+}
+
+#button{
+  margin-top: 15px;
+  border: 2px solid black;
+  background-color: black;
+  color: #ffffff;
+  font-size: 15px;
+  border-radius: 10px;
+  height: 35px;
+}
+
+#button:hover{
+  cursor: pointer;
+  border: 2px solid black;
+  background-color: #ffffff;
+  color: black;
+  transition: .3s;
+}
+
+#content{
+  border: 2px solid rgb(151, 151, 151);
+  border-radius: 10px;
+}
+
+#content:hover{
+  border: 2px solid rgb(94, 94, 245);
+}
+
+.header h1{
+  float: left;
+  margin-top: 30px;
+  font-size: 43px;
+}
+
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 100px;
+  border-bottom: 5px solid black;
+}
+
+.header ul{
+  float: right;
+}
+
+.header ul li{
+  display: inline-block;
+  margin-right: 30px;
+  margin-top: -30px;
+}
+
+.backButton{
+  color: #ffffff;
+  background-color: black;
+  border: 2px solid black;
+  padding: 10px;
+}
+
+.backButton{
+  color: #ffffff;
+  background-color: black;
+  border: 2px solid black;
+  padding: 10px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+.backButton:hover{
+  color: black;
+  background-color: #ffffff;
+  border: 2px solid black;
+  transition: .3s;
+  cursor: pointer;
+}
+
+.nightModeButton button{
+  color: #ffffff;
+  background-color: black;
+  border: 2px solid black;
+  padding: 10px;
+}
+
+.nightModeButton button{
+  color: #ffffff;
+  background-color: black;
+  border: 2px solid black;
+  padding: 10px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+.nightModeButton button:hover{
+  cursor: pointer;
+  color: black;
+  background-color: #ffffff;
+  border: 2px solid black;
+  transition: .3s;
+}
